@@ -4,5 +4,5 @@ The parity bit generation uses the following scheme
 |---|---|---|---|---|---|---|
 |x|&nbsp;|x|&nbsp;|x|&nbsp;|x|
 |x|x|&nbsp;|&nbsp;|x|x|&nbsp;|
-|x|x|x|x|&nbsp;|&nbsp;|&nbsp;|
+|x|x|x|x|&nbsp;|&nbsp;|&nbsp;| \
 Use logisim to access this circuit
