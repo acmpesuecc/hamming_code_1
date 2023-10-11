@@ -7,3 +7,4 @@ The parity bit generation uses the following scheme
 |x|x|&nbsp;|&nbsp;|x|x|&nbsp;|
 |x|x|x|x|&nbsp;|&nbsp;|&nbsp;| 
 
+Maintainer- Suraj
