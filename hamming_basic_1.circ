@@ -56,29 +56,51 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="simulationFrequency" val="1.0"/>
-    <comp lib="5" loc="(90,220)" name="DipSwitch">
+    <comp lib="1" loc="(500,430)" name="XOR Gate"/>
+    <comp lib="1" loc="(500,520)" name="XOR Gate"/>
+    <comp lib="1" loc="(500,630)" name="XOR Gate"/>
+    <comp lib="1" loc="(610,650)" name="XOR Gate"/>
+    <comp lib="1" loc="(620,450)" name="XOR Gate"/>
+    <comp lib="1" loc="(630,540)" name="XOR Gate"/>
+    <comp lib="5" loc="(100,490)" name="DipSwitch">
       <a name="facing" val="east"/>
       <a name="number" val="4"/>
     </comp>
-    <comp lib="8" loc="(573,271)" name="Text">
-      <a name="font" val="SansSerif bold 14"/>
-      <a name="text" val="D4"/>
-    </comp>
-    <comp lib="8" loc="(574,228)" name="Text">
-      <a name="font" val="SansSerif bold 14"/>
-      <a name="text" val="D1"/>
-    </comp>
-    <comp lib="8" loc="(574,242)" name="Text">
-      <a name="font" val="SansSerif bold 14"/>
-      <a name="text" val="D2"/>
-    </comp>
-    <comp lib="8" loc="(575,257)" name="Text">
-      <a name="font" val="SansSerif bold 14"/>
-      <a name="text" val="D3"/>
-    </comp>
-    <wire from="(90,230)" to="(560,230)"/>
-    <wire from="(90,240)" to="(560,240)"/>
-    <wire from="(90,250)" to="(560,250)"/>
-    <wire from="(90,260)" to="(560,260)"/>
+    <comp lib="5" loc="(670,450)" name="LED"/>
+    <comp lib="5" loc="(670,540)" name="LED"/>
+    <comp lib="5" loc="(680,650)" name="LED"/>
+    <wire from="(100,500)" to="(300,500)"/>
+    <wire from="(100,510)" to="(270,510)"/>
+    <wire from="(100,520)" to="(220,520)"/>
+    <wire from="(100,530)" to="(180,530)"/>
+    <wire from="(180,530)" to="(180,670)"/>
+    <wire from="(180,530)" to="(380,530)"/>
+    <wire from="(180,670)" to="(550,670)"/>
+    <wire from="(220,410)" to="(220,520)"/>
+    <wire from="(220,410)" to="(440,410)"/>
+    <wire from="(220,520)" to="(250,520)"/>
+    <wire from="(250,520)" to="(250,650)"/>
+    <wire from="(250,650)" to="(440,650)"/>
+    <wire from="(270,450)" to="(270,510)"/>
+    <wire from="(270,450)" to="(440,450)"/>
+    <wire from="(270,510)" to="(420,510)"/>
+    <wire from="(300,500)" to="(300,610)"/>
+    <wire from="(300,500)" to="(440,500)"/>
+    <wire from="(300,610)" to="(440,610)"/>
+    <wire from="(380,470)" to="(380,530)"/>
+    <wire from="(380,470)" to="(560,470)"/>
+    <wire from="(380,530)" to="(400,530)"/>
+    <wire from="(400,530)" to="(400,570)"/>
+    <wire from="(400,570)" to="(540,570)"/>
+    <wire from="(420,510)" to="(420,540)"/>
+    <wire from="(420,540)" to="(440,540)"/>
+    <wire from="(500,430)" to="(560,430)"/>
+    <wire from="(500,520)" to="(570,520)"/>
+    <wire from="(500,630)" to="(550,630)"/>
+    <wire from="(540,560)" to="(540,570)"/>
+    <wire from="(540,560)" to="(570,560)"/>
+    <wire from="(610,650)" to="(680,650)"/>
+    <wire from="(620,450)" to="(670,450)"/>
+    <wire from="(630,540)" to="(670,540)"/>
   </circuit>
 </project>
